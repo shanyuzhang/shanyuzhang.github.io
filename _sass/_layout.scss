@@ -38,6 +38,165 @@ body.sticky-bottom-footer {
   img {
     width: 100%;
   }
+
+  img.rounded-circle {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+
+  .more-info {
+    margin-top: 0.75rem;
+  }
+}
+
+/* About page header: name on the left, compact info on the right */
+.about-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  margin-bottom: 2.5rem;
+
+  .post-title {
+    margin-bottom: 0;
+  }
+
+  .header-info {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: var(--global-text-color);
+    text-align: right;
+    padding-bottom: 0.4rem;
+
+    .profile-line {
+      margin: 0;
+      display: inline-block;
+
+      &::after {
+        content: "·";
+        margin: 0 0.5rem;
+        color: var(--global-text-color-light);
+      }
+
+      &:last-child::after {
+        content: none;
+      }
+
+      i {
+        margin-right: 0.25rem;
+      }
+
+      a {
+        color: var(--global-text-color);
+        text-decoration: none;
+
+        &:hover {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about-header {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .header-info {
+      text-align: left;
+    }
+  }
+}
+
+/* Let News flow next to the avatar; later sections clear */
+#news,
+.about-section:has(#news) {
+  clear: none;
+}
+
+/* About page section dividers */
+.about-section {
+  clear: both;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  &:first-of-type {
+    border-top: none;
+    padding-top: 1.5rem;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* News and publication accents */
+.news-card {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.news-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+
+  li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    line-height: 1.6;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.publication-list {
+  padding-left: 1.2rem;
+
+  li {
+    margin-bottom: 0.85rem;
+    line-height: 1.55;
+  }
+
+  .pub-authors {
+    color: var(--global-text-color-light);
+  }
+
+  .pub-venue {
+    font-style: italic;
+    color: var(--global-text-color-light);
+  }
+}
+
+.badge.badge-accent {
+  display: inline-block;
+  background: var(--global-theme-color);
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 0.25rem;
+  margin-left: 0.25rem;
+  vertical-align: middle;
+}
+
+.badge.badge-muted {
+  display: inline-block;
+  background: var(--global-divider-color);
+  color: var(--global-text-color);
+  font-size: 0.7rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 0.25rem;
+  margin-left: 0.25rem;
+  vertical-align: middle;
 }
 
 // Content layout uses Bootstrap's grid system with responsive columns
