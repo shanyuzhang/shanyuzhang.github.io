@@ -7,9 +7,9 @@ first_name: Shanyu
 middle_name:
 last_name: Zhang
 contact_note: >
-  If you are interested in my work or would like to discuss machine learning, AI tools, finance, or economics, please feel free to reach out.
+  I am always happy to hear from people interested in machine learning, AI tools, finance, economics, or research prototyping.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Undergraduate student in Financial Mathematics at Xi'an Jiaotong-Liverpool University, interested in machine learning and AI methods for finance and economics.
+  Financial Mathematics undergraduate at Xi'an Jiaotong-Liverpool University, interested in machine learning and AI methods for finance and economics.
 footer_text: >
   &copy; Shanyu Zhang. Powered by Jekyll with al-folio theme.
 keywords: applied mathematics, financial mathematics, machine learning, artificial intelligence, finance, economics, AI agents, programming assistants # add your own keywords or leave empty

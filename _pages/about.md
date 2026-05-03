@@ -13,7 +13,7 @@ profile:
   more_info: >
     <p>Xi'an Jiaotong-Liverpool University</p>
     <p>Suzhou, China</p>
-    <p><a href="mailto:Shanyu.Zhang24@student.xjtlu.edu.cn">Shanyu.Zhang24@student.xjtlu.edu.cn</a></p>
+    <p><a href="mailto:Shanyu.Zhang24@student.xjtlu.edu.cn">Email</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,11 +29,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-我是西安交通利物浦大学金融数学专业的大二本科生，预计 2028 年在利物浦大学完成理学学士学位。
+I am a second-year undergraduate student in Financial Mathematics at Xi'an Jiaotong-Liverpool University. I expect to complete my BSc in Mathematics with Finance at the University of Liverpool in 2028.
 
-我的研究兴趣集中在机器学习与 AI 方法在金融、经济学中的应用，同时也关注 AI 工具本身，尤其是 AI agent 与编程助手的能力边界。作为本科生，我仍在主动探索自己最想深入的方向，因此兴趣覆盖从理论到应用的不同层面。我也在频繁使用 Claude Code、Codex 等 AI 编程工具进行研究原型开发和小型应用构建，这本身也是我感兴趣的一个方向。具体进展可以参考下方的 Working Papers。
+My current interests center on machine learning and AI methods for finance and economics. I am also interested in AI tools themselves, especially the practical boundaries of AI agents and programming assistants. As an undergraduate, I am still actively exploring the questions I want to pursue most deeply, so my interests span both theoretical and applied directions.
 
-如果你对我的工作感兴趣，或者愿意就上述任何话题交流，欢迎随时联系我。
+I frequently use tools such as Claude Code and Codex to build research prototypes and small applications. This workflow is also part of what I am studying: how AI-assisted programming changes the pace, quality, and scope of early-stage research. Some early directions are listed below under Working Papers.
+
+If you are interested in my work or would like to discuss any of these topics, please feel free to get in touch.
 
 {% capture cv_exists %}{% file_exists assets/pdf/CV.pdf %}{% endcapture %}
 {% if cv_exists == "true" %}
