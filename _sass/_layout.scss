@@ -50,6 +50,62 @@ body.sticky-bottom-footer {
   }
 }
 
+/* Language toggle: default = EN. Markup must include matched
+   .lang-en / .lang-cn elements; only one is visible at a time. */
+.lang-cn {
+  display: none;
+}
+
+html[data-lang="cn"] {
+  .lang-en {
+    display: none;
+  }
+
+  .lang-cn {
+    display: revert;
+  }
+}
+
+/* Navbar language toggle button — mirrors #light-toggle so it lines up vertically */
+#lang-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1;
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}
+
+@media (min-width: 576px) {
+  #lang-toggle {
+    transform: translateY(4px);
+  }
+}
+
+#lang-toggle-cn {
+  display: none;
+}
+
+html[data-lang="cn"] {
+  #lang-toggle-en {
+    display: none;
+  }
+
+  #lang-toggle-cn {
+    display: inline-block;
+  }
+}
+
 /* About page header: name on the left, compact info on the right */
 .about-header {
   display: flex;
@@ -109,12 +165,6 @@ body.sticky-bottom-footer {
       text-align: left;
     }
   }
-}
-
-/* Let News flow next to the avatar; later sections clear */
-#news,
-.about-section:has(#news) {
-  clear: none;
 }
 
 /* About page section dividers */

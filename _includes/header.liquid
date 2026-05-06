@@ -6,9 +6,12 @@
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
             <span class="font-weight-bold">
-              {%- if site.first_name -%}{{ site.first_name }}{%- endif -%}
-              {%- if site.middle_name %} {{ site.middle_name }}{% endif -%}
-              {%- if site.last_name %} {{ site.last_name }}{% endif -%}
+              <span class="lang-en">
+                {%- if site.first_name -%}{{ site.first_name }}{%- endif -%}
+                {%- if site.middle_name %} {{ site.middle_name }}{% endif -%}
+                {%- if site.last_name %} {{ site.last_name }}{% endif -%}
+              </span>
+              <span class="lang-cn">张善宇</span>
             </span>
           {% else %}
             {{- site.title -}}
@@ -129,6 +132,13 @@
               </button>
             </li>
           {% endif %}
+          <!-- Toggle language -->
+          <li class="toggle-container">
+            <button id="lang-toggle" title="Switch language / 切换语言">
+              <span id="lang-toggle-en">中</span>
+              <span id="lang-toggle-cn">EN</span>
+            </button>
+          </li>
         </ul>
       </div>
     </div>

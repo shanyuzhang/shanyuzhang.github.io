@@ -7,7 +7,7 @@ first_name: Shanyu
 middle_name:
 last_name: Zhang
 contact_note: >
-  I am always happy to hear from people interested in machine learning, AI tools, finance, economics, or research prototyping.
+  <span class="lang-en">I am always happy to hear from people interested in machine learning, AI tools, finance, economics, or research prototyping.</span><span class="lang-cn">欢迎对机器学习、AI 工具、金融、经济学或科研原型感兴趣的朋友与我交流。</span>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Financial Mathematics undergraduate at Xi'an Jiaotong-Liverpool University, interested in machine learning and AI methods for finance and economics.
 footer_text: >
