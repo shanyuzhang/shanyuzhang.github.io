@@ -133,7 +133,7 @@ Feel free to reach out — I'm happy to discuss with people from different backg
 <section class="about-section">
   <h2 id="interests">🎯 <span class="lang-en">Interests</span><span class="lang-cn">兴趣</span></h2>
   <p>
-    <span class="lang-en">Outside coursework and research exploration, I enjoy building small applications with AI coding tools and discussing new ideas with people from different backgrounds.</span>
-    <span class="lang-cn">课业和科研之外，我喜欢用 AI 编程工具搭建小应用，也喜欢和来自不同背景的朋友交流新想法。</span>
+    <span class="lang-en">Outside coursework and research, I enjoy building small side projects and discussing new ideas with people from different backgrounds.</span>
+    <span class="lang-cn">课业和科研之外，我喜欢做一些小项目，也喜欢和来自不同背景的朋友交流新想法。</span>
   </p>
 </section>
