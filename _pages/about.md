@@ -11,9 +11,9 @@ profile:
   image: imagezsy.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p class="profile-line">🏫 <span class="lang-en">XJTLU</span><span class="lang-cn">西交利物浦大学</span></p>
-    <p class="profile-line">📍 <span class="lang-en">Suzhou, China</span><span class="lang-cn">中国苏州</span></p>
-    <p class="profile-line">✉️ <a href="mailto:Shanyu.Zhang24@student.xjtlu.edu.cn"><span class="lang-en">Email</span><span class="lang-cn">邮箱</span></a></p>
+    <p class="profile-line">🏫 <span class="lang-en">University of Liverpool</span><span class="lang-cn">利物浦大学</span></p>
+    <p class="profile-line">📍 <span class="lang-en">Liverpool, UK</span><span class="lang-cn">英国利物浦</span></p>
+    <p class="profile-line">✉️ <a href="mailto:sgszha59@liverpool.ac.uk"><span class="lang-en">Email</span><span class="lang-cn">邮箱</span></a></p>
     <p class="profile-line"><i class="fa-brands fa-github"></i> <a href="https://github.com/shanyuzhang" target="_blank" rel="noopener">GitHub</a></p>
     <p class="profile-line"><i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0009-0009-6502-9334" target="_blank" rel="noopener">ORCID</a></p>
 
@@ -32,15 +32,19 @@ latest_posts:
 ---
 
 <div class="lang-en" markdown="1">
-I am a second-year undergraduate student at Xi'an Jiaotong-Liverpool University, majoring in Mathematics with Finance, and I am expected to complete my BSc degree at the University of Liverpool in 2028. Feel free to reach out — I'm happy to discuss with people from different backgrounds.
+I build and evaluate learning systems for reasoning and decision-making. I am a third-year undergraduate at the University of Liverpool, reading Mathematics with Finance, with my BSc expected in 2028.
 
-My research interests span machine learning and its applications in economics and quantitative finance. I am also broadly curious about AI itself — how large language models and AI coding assistants work, and what they make possible. In my spare time, I build small AI applications and use tools like Claude Code and Codex for vibe coding and rapid prototyping.
+My interests centre on large language model agents and the systems built around them — how such systems use context and tools, and how their behaviour should be measured. I care about evaluation as much as modelling: what a benchmark actually measures, and which results survive a change of setup. I am also interested in machine learning applied to economics and quantitative finance.
+
+Feel free to reach out — I'm happy to discuss with people from different backgrounds.
 </div>
 
 <div class="lang-cn" markdown="1">
-我是西交利物浦大学金融数学专业的大二本科生，预计 2028 年在利物浦大学完成数学与金融方向的理学学士学位。欢迎来信交流——我很乐意与来自不同背景的朋友讨论。
+我构建并评测面向推理与决策的学习系统。我是利物浦大学数学与金融专业的大三本科生，预计 2028 年获得理学学士学位。
 
-我的研究兴趣涉及机器学习及其在经济学和量化金融中的应用。我也对 AI 本身充满好奇——大型语言模型和 AI 编程助手的工作原理，以及它们能带来什么可能性。业余时间，我会构建一些小型 AI 应用，并使用 Claude Code、Codex 等工具进行 vibe coding 和快速原型开发。
+我的兴趣集中在大型语言模型智能体，以及围绕它们构建的系统——这类系统如何使用上下文与工具，它们的行为又该如何被衡量。相比建模，我同样看重评测：一个基准究竟测的是什么，哪些结论换一套实验设置后仍然成立。我也关注机器学习在经济学和量化金融中的应用。
+
+欢迎来信交流——我很乐意与来自不同背景的朋友讨论。
 </div>
 
 {% capture cv_exists %}{% file_exists assets/pdf/CV.pdf %}{% endcapture %}
@@ -57,15 +61,25 @@ My research interests span machine learning and its applications in economics an
   <div class="news-card">
     <ul class="news-list">
       <li>
-        <strong><span class="lang-en">Apr 2026</span><span class="lang-cn">2026 年 4 月</span></strong> &nbsp;·&nbsp;
-        <span class="lang-en">Our paper <em>"Example Selection for In-Context Learning via Conditional Mutual Information"</em> has been accepted for <strong>oral presentation</strong> at <strong>ICIC 2026</strong>.</span>
-        <span class="lang-cn">我们的论文 <em>"Example Selection for In-Context Learning via Conditional Mutual Information"</em> 已被 <strong>ICIC 2026</strong> 接收为<strong>口头报告</strong>。</span>
+        <strong><span class="lang-en">Jul 2026</span><span class="lang-cn">2026 年 7 月</span></strong> &nbsp;·&nbsp;
+        <span class="lang-en">Presented our paper <em>"Example Selection for In-Context Learning via Conditional Mutual Information"</em> at <strong>ICIC 2026</strong>.</span>
+        <span class="lang-cn">在 <strong>ICIC 2026</strong> 报告了我们的论文 <em>"Example Selection for In-Context Learning via Conditional Mutual Information"</em>。</span>
         <span class="badge badge-accent"><span class="lang-en">Oral</span><span class="lang-cn">口头报告</span></span>
       </li>
       <li>
-        <strong><span class="lang-en">Mar 2026</span><span class="lang-cn">2026 年 3 月</span></strong> &nbsp;·&nbsp;
-        <span class="lang-en">I will present our paper <em>"Geopolitics and Corporate Alliances: Evidence from US-China Trade War"</em> at the <strong>13th CAPE Conference</strong> in Suzhou, China.</span>
-        <span class="lang-cn">我将在<strong>第 13 届 CAPE 会议</strong>（中国苏州）报告我们的论文 <em>"Geopolitics and Corporate Alliances: Evidence from US-China Trade War"</em>。</span>
+        <strong><span class="lang-en">Jun 2026</span><span class="lang-cn">2026 年 6 月</span></strong> &nbsp;·&nbsp;
+        <span class="lang-en">Awarded the <strong>XJTLU Summer Undergraduate Research Fellowship (SURF)</strong> funding.</span>
+        <span class="lang-cn">获得<strong>西交利物浦大学暑期本科生研究基金（SURF）</strong>资助。</span>
+      </li>
+      <li>
+        <strong><span class="lang-en">May 2026</span><span class="lang-cn">2026 年 5 月</span></strong> &nbsp;·&nbsp;
+        <span class="lang-en">Presented our paper <em>"Geopolitics and Corporate Alliances: Evidence from US-China Trade War"</em> at the <strong>13th CAPE Conference</strong> in Suzhou, China.</span>
+        <span class="lang-cn">在<strong>第 13 届 CAPE 会议</strong>（中国苏州）报告了我们的论文 <em>"Geopolitics and Corporate Alliances: Evidence from US-China Trade War"</em>。</span>
+      </li>
+      <li>
+        <strong><span class="lang-en">Jun 2025</span><span class="lang-cn">2025 年 6 月</span></strong> &nbsp;·&nbsp;
+        <span class="lang-en">Awarded the <strong>XJTLU Summer Undergraduate Research Fellowship (SURF)</strong> funding.</span>
+        <span class="lang-cn">获得<strong>西交利物浦大学暑期本科生研究基金（SURF）</strong>资助。</span>
       </li>
     </ul>
   </div>
@@ -82,7 +96,7 @@ My research interests span machine learning and its applications in economics an
         <span class="lang-cn">国际智能计算大会（ICIC），2026。</span>
       </span>
       <span class="badge badge-accent"><span class="lang-en">Oral</span><span class="lang-cn">口头报告</span></span>
-      <span class="badge badge-muted"><span class="lang-en">Accepted, to appear</span><span class="lang-cn">已接收，待发表</span></span>
+      <span class="badge badge-muted"><span class="lang-en">Presented</span><span class="lang-cn">已报告</span></span>
     </li>
   </ol>
   <div class="publications">
@@ -100,7 +114,7 @@ My research interests span machine learning and its applications in economics an
         <span class="lang-en">13th CAPE Conference, Suzhou, China, 2026.</span>
         <span class="lang-cn">第 13 届 CAPE 会议，中国苏州，2026。</span>
       </span>
-      <span class="badge badge-accent"><span class="lang-en">Upcoming</span><span class="lang-cn">即将进行</span></span>
+      <span class="badge badge-accent"><span class="lang-en">Presented</span><span class="lang-cn">已报告</span></span>
     </li>
   </ol>
 </section>
@@ -109,14 +123,9 @@ My research interests span machine learning and its applications in economics an
   <h2 id="education">📖 <span class="lang-en">Education</span><span class="lang-cn">教育经历</span></h2>
   <ul>
     <li>
-      <em>2024.09 &ndash; 2026.06</em>,
-      <span class="lang-en"><strong>Xi'an Jiaotong-Liverpool University</strong>, BSc Financial Mathematics.</span>
-      <span class="lang-cn"><strong>西交利物浦大学</strong>，金融数学 学士。</span>
-    </li>
-    <li>
-      <em>2026.09 &ndash; 2028.06 <span class="lang-en">(Expected)</span><span class="lang-cn">（预计）</span></em>,
-      <span class="lang-en"><strong>University of Liverpool</strong>, BSc Mathematics with Finance.</span>
-      <span class="lang-cn"><strong>利物浦大学</strong>，数学与金融 学士。</span>
+      <em>2024.09 &ndash; 2028.06 <span class="lang-en">(Expected)</span><span class="lang-cn">（预计）</span></em>,
+      <span class="lang-en"><strong>University of Liverpool</strong>, BSc Mathematics with Finance. GPA: 3.83/4.0.</span>
+      <span class="lang-cn"><strong>利物浦大学</strong>，数学与金融 学士。GPA：3.83/4.0。</span>
     </li>
   </ul>
 </section>
