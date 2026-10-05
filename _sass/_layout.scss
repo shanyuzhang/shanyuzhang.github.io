@@ -225,6 +225,25 @@ html[data-lang="cn"] {
     font-style: italic;
     color: var(--global-text-color-light);
   }
+
+  .pub-links {
+    margin-top: 0.35rem;
+
+    a {
+      display: inline-block;
+      font-size: 0.75rem;
+      padding: 0.1rem 0.75rem;
+      border: 1px solid var(--global-text-color);
+      border-radius: 0.25rem;
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+      }
+    }
+  }
 }
 
 .badge.badge-accent {
