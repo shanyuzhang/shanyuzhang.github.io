@@ -8,8 +8,8 @@ subtitle:
 
 profile:
   align: left
-  image: imagezsy.png
-  image_circular: true # crops the image to make it circular
+  image: profile.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p class="profile-line">🏫 <span class="lang-en">University of Liverpool</span><span class="lang-cn">利物浦大学</span></p>
     <p class="profile-line">📍 <span class="lang-en">Liverpool, UK</span><span class="lang-cn">英国利物浦</span></p>
