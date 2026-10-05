@@ -2,7 +2,8 @@
 layout: default
 permalink: /blog/
 title: Blog
-nav: true
+nav: false # set back to true once the first post is published
+sitemap: false
 nav_order: 1
 pagination:
   enabled: true

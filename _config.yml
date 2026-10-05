@@ -9,10 +9,10 @@ last_name: Zhang
 contact_note: >
   <span class="lang-en">I am always happy to hear from people interested in machine learning, AI tools, finance, economics, or research prototyping.</span><span class="lang-cn">欢迎对机器学习、AI 工具、金融、经济学或科研原型感兴趣的朋友与我交流。</span>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Financial Mathematics undergraduate at Xi'an Jiaotong-Liverpool University, interested in machine learning and AI methods for finance and economics.
+  Mathematics with Finance undergraduate at the University of Liverpool, interested in large language model agents, evaluation, and machine learning for economics and finance.
 footer_text: >
   &copy; Shanyu Zhang. Powered by Jekyll with al-folio theme.
-keywords: applied mathematics, financial mathematics, machine learning, artificial intelligence, finance, economics, AI agents, programming assistants # add your own keywords or leave empty
+keywords: LLM agents, in-context learning, evaluation, benchmarks, machine learning, mathematics, quantitative finance, economics # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -173,8 +173,15 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - AGENTS.md
+  - ANALYTICS.md
   - bin/
+  - CLAUDE.md
   - CONTRIBUTING.md
+  - QUICKSTART.md
+  - requirements.txt
+  - SEO.md
+  - TROUBLESHOOTING.md
   - CUSTOMIZE.md
   - Dockerfile
   - docker-compose.yml
@@ -187,7 +194,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/

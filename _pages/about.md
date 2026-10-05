@@ -96,7 +96,9 @@ Feel free to reach out — I'm happy to discuss with people from different backg
         <span class="lang-cn">国际智能计算大会（ICIC），2026。</span>
       </span>
       <span class="badge badge-accent"><span class="lang-en">Oral</span><span class="lang-cn">口头报告</span></span>
-      <span class="badge badge-muted"><span class="lang-en">Presented</span><span class="lang-cn">已报告</span></span>
+      <div class="pub-links">
+        <a href="https://doi.org/10.1007/978-981-92-3435-6_32" target="_blank" rel="noopener">Paper</a>
+      </div>
     </li>
   </ol>
   <div class="publications">
